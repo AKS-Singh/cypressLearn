@@ -1,0 +1,15 @@
+{
+  "logincredential":{
+    "username": "Admin",
+    "password": "admin123" 
+  },
+  "addemployee":{
+    "firstname": "Cypress",
+    "middlename": "cy",
+    "lastname": "automation",
+    "username": "AviUser",
+    "password": "Test1234",
+    "confirm": "Test1234"
+  }
+   
+}

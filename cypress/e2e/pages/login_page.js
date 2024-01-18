@@ -9,4 +9,9 @@ export class login_page{
         cy.get('.oxd-button').click()
 
     }
+    loginVerification(){
+        cy.contains('Dashboard').should('be.visible')
+        cy.get('.oxd-userdropdown-tab > .oxd-icon').click()
+        cy.get(':nth-child(4) > .oxd-userdropdown-link').click()
+    }
 }
